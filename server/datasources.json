@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "prodigi-api": {
+    "host": "ds141621.mlab.com",
+    "port": 41621,
+    "url": "mongodb://admin:pd123123@ds141621.mlab.com:41621/prodigi-api",
+    "database": "prodigi-api",
+    "password": "pd123123",
+    "name": "prodigi-api",
+    "user": "admin",
+    "connector": "mongodb"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Company",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "number"
+    },
+    "photo": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "techStack": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "jobs": {
+      "type": [
+        "any"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
