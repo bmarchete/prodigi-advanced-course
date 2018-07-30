@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "prodigi-api"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "prodigi-api",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "prodigi-api",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "prodigi-api",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "prodigi-api",
     "public": false
   },
   "Company": {
