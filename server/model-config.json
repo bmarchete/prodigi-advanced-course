@@ -14,29 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "prodigi-api"
+    "dataSource": "prodigiApi"
   },
   "AccessToken": {
-    "dataSource": "prodigi-api",
+    "dataSource": "prodigiApi",
     "public": false
   },
   "ACL": {
-    "dataSource": "prodigi-api",
+    "dataSource": "prodigiApi",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "prodigi-api",
+    "dataSource": "prodigiApi",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "prodigi-api",
+    "dataSource": "prodigiApi",
     "public": false
   },
   "Company": {
-    "dataSource": "prodigi-api",
+    "dataSource": "prodigiApi",
+    "public": true
+  },
+  "Job": {
+    "dataSource": "prodigiApi",
     "public": true
   }
 }
