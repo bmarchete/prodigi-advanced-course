@@ -15,14 +15,10 @@
       "required": true
     },
     "logo": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "size": {
       "type": "number"
-    },
-    "photo": {
-      "type": "string"
     },
     "contact": {
       "type": "string"
@@ -35,15 +31,19 @@
     },
     "description": {
       "type": "string"
-    },
-    "jobs": {
-      "type": [
-        "any"
-      ]
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "jobs": {
+      "type": "hasMany",
+      "model": "Job",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
