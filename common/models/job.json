@@ -30,13 +30,10 @@
   },
   "validations": [],
   "relations": {
-    "company": {
-      "type": "belongsTo",
-      "model": "Company",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
+    "students": {
+      "type": "hasAndBelongsToMany",
+      "model": "Student",
+      "foreignKey": ""
     }
   },
   "acls": [],

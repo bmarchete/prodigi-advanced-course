@@ -42,5 +42,13 @@
   "Job": {
     "dataSource": "prodigiApi",
     "public": true
+  },
+  "Student": {
+    "dataSource": "prodigiApi",
+    "public": true
+  },
+  "Subscribe": {
+    "dataSource": "prodigiApi",
+    "public": true
   }
 }
