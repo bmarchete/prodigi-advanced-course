@@ -1,0 +1,45 @@
+{
+  "name": "Student",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "goal": {
+      "type": "string"
+    },
+    "term": {
+      "type": "number"
+    },
+    "photo": {
+      "type": "string"
+    },
+    "resume": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
+    },
+    "linkedinLink": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "jobs": {
+      "type": "hasAndBelongsToMany",
+      "model": "Job"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
