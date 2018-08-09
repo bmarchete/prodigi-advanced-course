@@ -34,6 +34,11 @@
       "type": "hasAndBelongsToMany",
       "model": "Student",
       "foreignKey": ""
+    },
+    "company": {
+      "type": "belongsTo",
+      "model": "Company",
+      "foreignKey": ""
     }
   },
   "acls": [],
